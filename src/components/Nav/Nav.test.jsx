@@ -16,5 +16,5 @@ describe('the navigation component', () => {
       </Provider>
     );
     expect(screen.getByText('Prime Solo Project')).toBeInTheDocument();
-  })
-})
+  });
+});
